@@ -1,0 +1,33 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="package:mine okhttp" />
+      </list>
+    </option>
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine " />
+        <option value="package:mine tag:HealthClientManager 운동타입" />
+        <option value="package:mine tag:HealthClientManager 운동" />
+        <option value="package:mine tag:" />
+        <option value="package:mine HealthClientManager" />
+        <option value="package:mine Amb" />
+        <option value="package:mine Ambient" />
+        <option value="package:mine DistanceData" />
+        <option value="package:mine healthclient" />
+        <option value="package:mine HealthClien" />
+        <option value="package:mine healthClient" />
+        <option value="package:mine trainingData" />
+        <option value="package:mine Picker" />
+        <option value="package:mine downloadHandler" />
+        <option value="package:mine Locatio" />
+        <option value="package:mine Location" />
+        <option value="package:mine tag:Fused" />
+        <option value="package:mine tag:HealthClient" />
+        <option value="package:mine tag:HealthClient " />
+        <option value="package:mine" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,28 @@
+<templateSet group="gagip">
+  <template name="invoke" value="operator fun invoke() = $BODY$" description="Invoke template of UseCase" toReformat="false" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="injectcon" value="@Inject constructor(&#10;    private val $PARAM$&#10;)" description="Inject Constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="susinvoke" value="suspend operator fun invoke() = $BODY$" description="Suspend invoke templete of UseCase" toReformat="false" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@Test&#10;fun `$name$`() {&#10;    $body$&#10;}" description="테스트코드 함수" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="name" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

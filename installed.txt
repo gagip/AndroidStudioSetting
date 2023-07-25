@@ -1,0 +1,7 @@
+Dart
+IdeaVIM
+com.caldonazzi.alessandro.uml
+com.github.copilot
+dev.polek.adbwifi
+idea.plugin.protoeditor
+io.flutter
